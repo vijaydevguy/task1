@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>YouTube Clone</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-th"></i> YouTube
+            </div>
+            <div class="icons">
+                <i class="fas fa-home"></i>
+                <i class="fas fa-fire"></i>
+                <i class="fas fa-video"></i>
+                <i class="fas fa-th"></i>
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-user"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0dOSLhPzSGI?si=zYZn9FEpCOqIpo_r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-info">
+            <div class="likes-dislikes">
+                <i class="fas fa-thumbs-up"></i> <span class="like-count">100</span>
+                <i class="fas fa-thumbs-down"></i> <span class="dislike-count">10</span>
+            </div>
+            <a href="./form.html">
+                <button id="subscribeBtn" class="subscribe-button">Subscribe</button>
+            </a>
+            
+        </div>
+    </main>
+</body>
+</html>

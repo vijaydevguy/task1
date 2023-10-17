@@ -1,0 +1,89 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header/navbar */
+header {
+    background-color: #ff0000; /* Red, similar to YouTube */
+    padding: 10px;
+    color: #fff; /* White text color */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+}
+
+.icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Style the video container */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2; /* Light gray background color */
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+}
+
+.video-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.likes-dislikes {
+    display: flex;
+    align-items: center;
+}
+
+.like-count, .dislike-count {
+    margin: 0 5px;
+}
+
+.subscribe-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.subscribe-button:hover {
+    background-color: #cc0000;
+}
